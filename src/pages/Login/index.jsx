@@ -10,6 +10,8 @@ import {
 } from "@material-ui/core";
 import PersonIcon from "@material-ui/icons/Person";
 import LockIcon from "@material-ui/icons/Lock";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import MuiAlert from "@material-ui/lab/Alert";
 
@@ -155,11 +157,17 @@ function Login() {
             </button>
           </form>
           <div className="social-login">
-            <h3>LucasFlix</h3>
+            <h4>Contato</h4>
             <div className="social-icons">
-              <a href="#" className="social-login__icon fab fa-instagram"></a>
-              <a href="#" className="social-login__icon fab fa-facebook"></a>
-              <a href="#" className="social-login__icon fab fa-twitter"></a>
+            <a href="#" className="social-login__icon">
+        <FontAwesomeIcon icon={faInstagram} />
+      </a>
+      <a href="#" className="social-login__icon">
+        <FontAwesomeIcon icon={faFacebook} />
+      </a>
+      <a href="#" className="social-login__icon">
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
             </div>
           </div>
         </div>
