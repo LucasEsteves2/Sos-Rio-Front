@@ -1,0 +1,138 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+}
+
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#cardContainerSireneFResearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: none none none solid;
+    border-width: 0.5vw;
+    border-color: #AC8A10;
+    height: 78vh;
+    width: 29vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#goBackSireneFResearch {
+    font-size: 0.8rem;
+    height: fit-content;
+}
+
+/* - - - - - - - SCROLL BAR - - - - - - - - - */
+#cardBodyContainerSireneFResearch::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+#cardBodyContainerSireneFResearch::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0.4vw;
+}
+
+#cardBodyContainerSireneFResearch::-webkit-scrollbar-thumb {
+    background: #002146;
+    border-radius: 40px;
+}
+
+#cardBodyContainerSireneFResearch::-webkit-scrollbar-thumb:hover {
+    background: #01499b;
+}
+
+/* - - - - - - - TITLE CONTAINER- - - - - - - - - */
+#cardTitleContainerSireneFResearch {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* - - - - - - - TITLE - - - - - - - - - */
+#cardTitleSireneFResearch {
+    width: 100%;
+}
+
+#cardTitleLine1SireneFResearch {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+#cardTitleLine1SireneFResearch h1 {
+    margin: 0.5vw;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* - - - - - - - CARD BODY CONTAINER - - - - - - - - - */
+#cardBodyContainerSireneFResearch {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* - - - - - - - BOX 2 - - - - - - - - - */
+#cardBodyBox2SireneF ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+#cardBodyBox2SireneF li {
+    font-size: 0.8rem;
+    padding: 0.3vh 0.1vw;
+}
+
+#cardBodyBox2SireneF {
+    font-weight: bold;
+    min-height: fit-content;
+    height: fit-content;
+}
+
+#cardRatingH3SireneF {
+    font-size: 0.8rem;
+}
+
+#cardRatingH1SireneF {
+    font-size: 0.8rem;
+    padding: 0.4vh 0.4vw;
+    background-color: #fa7878;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.criteriaDefesaCivilSireneF {
+    font-size: 0.8rem;
+}
+
+.entendaContainerSireneF {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entendaContainerSireneF button {
+    margin-left: 0.3vw;
+}

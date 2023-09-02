@@ -1,0 +1,14 @@
+[
+ 
+    {
+        "adress": "Rua Brg. Castrioto",
+        "area": "Rua Brg. Castrioto",
+        "description": "Sirene localizada no bairro Quissamã, instalada com o objetivo de alertar a população em casos de deslizamentos, comuns na região",
+        "latitude": " -22.43636339903216",
+        "longitude": "-43.29662876527543",
+        "name": "Sirene Quissamã",
+        "number": 1502,
+        "radius": 10
+      }
+    
+]

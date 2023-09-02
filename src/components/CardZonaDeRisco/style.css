@@ -1,0 +1,246 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#cardContainerZonaDeRisco {
+    display: flex;
+    flex-direction: column;
+    border-style: none none none solid;
+    border-width: 0.5vw;
+    border-color: #E01010;
+    height: fit-content;
+}
+
+/* - - - - - - - TITLE CONTAINER- - - - - - - - - */
+#cardTitleContainerZdR {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* - - - - - - - TITLE - - - - - - - - - */
+#cardTitleZdR {
+    width: 80%;
+}
+
+#cardTitleLine1ZdR {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+#cardTitleLine1ZdR h1 {
+    margin: 0.5vw;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* - - - - - - - TITLE LINE 2 - - - - - - - - - */
+#cardTitleLine2ZdR {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+/* - - - - - - - EVALUATE BTN - - - - - - - - - */
+#evaluateBtnDivZdR {
+    width: 18%;
+}
+
+.purpleBtnZdR {
+    color: #9218CB;
+    display: flex;
+    justify-content: flex-start;
+    transition:700ms;
+}
+.purpleBtnZdR:hover {
+    color:#E01010;
+    transition:700ms;
+}
+
+#evaluateBtnZdR {
+    background-color: #9218CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: fit-content;
+    width: 100%;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    justify-content: center;
+    margin-top: 0.4vw;
+    border-radius: 5px;
+    transition:700ms;
+}
+
+#evaluateBtnZdR:hover {
+    background-color: #6b1792;
+    transition:700ms;
+}
+
+/* #evaluateBtnZdR:focus {
+    outline: none;
+    background: #ffdd00;
+    color: #000000;
+} */
+
+/* - - - - - - - "LEARN MORE" BTN - - - - - - - - - */
+#learnMoreBtnZdR {
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-left: 0.2vw;
+}
+
+/* - - - - - - - CARD BODY CONTAINER - - - - - - - - - */
+#cardBodyContainerZdR {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    padding-bottom: 1vh;
+}
+
+/* - - - - - - - CARD BOX - - - - - - - - - */
+.cardBodyBoxZdR {
+    width: 47%;
+    height: 35vh;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 0vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: lightgrey;
+    box-shadow: 0.2em 0.2vw 0.5vw#cccccc;
+}
+
+#cardContentContainerZdR {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+#cardContentContainerZdR div {
+    min-height: none;
+}
+/* - - - - - - - BOX 2 - - - - - - - - - */
+#cardBodyBox1ZdR {
+    height:35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cardBodyBox1ZdR img {
+    padding-top: 0.4vw;
+}
+
+/* - - - - - - - RATING - - - - - - - - - */
+#cardRatingZdR {
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+#cardRatingH1ZonaDeRisco {
+    padding: 0.4vw;
+    background-color: #fa7878;
+    text-align: center;
+    border-radius: 15px;
+    margin-top:0.4vh;
+}
+
+#cardBodyBox2ZdR{
+    height:35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#cardBodyBox2ZdR ul {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.5vh 0.5vw;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 1.5vw;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+}
+
+#cardBodyBox2ZdR li {
+    font-size: 0.7rem;
+}
+
+.entendaContainerZdR {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entendaContainerZdR button {
+    margin-left: 0.3vw;
+}
+
+.cardSubTitleZdR {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #dfdfdf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardSubTitleZdR h4 {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    text-align: center;
+}
+
+#endBarZdR {
+    width: 100%;
+    border: none none solid none;
+    border-color: #dfdfdf;
+    border-width: 5px;
+    height: 0.1vw;
+    background-color: #dfdfdf;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}

@@ -1,0 +1,334 @@
+/* - - - - - - - FULL - - - - - - - - - */
+#contentNavbarContainer {
+    height: fit-content;
+    width: 28vw;
+}
+
+/* - - - - - - - FILTER BUTTONS - - - - - - - - - */
+#filterTitle {
+    margin: 1%;
+}
+
+#filterBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0.5rem;
+}
+
+/* - - - - - - - BTN ZDR ON - - - - - - - - - */
+#divFilterZonaDeRisco {
+    background-color: #E01010;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterZonaDeRisco {
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#divFilterZonaDeRisco:hover {
+    background-color: #a10b0b;
+}
+
+/* - - - - - - - BTN ZDR OFF - - - - - - - - - */
+#divFilterZonaDeRiscoOff {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px black;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterZonaDeRiscoOff {
+    color: #E01010;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#btnFilterZonaDeRiscoOff:hover {
+    color: #a10b0b;
+}
+
+/* - - - - - - - BTN PDA ON - - - - - - - - - */
+#divFilterPontoDeApoio {
+    background-color: #118839;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterPontoDeApoio {
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#divFilterPontoDeApoio:hover {
+    background-color: #094d20;
+}
+
+/* - - - - - - - BTN PDA OFF - - - - - - - - - */
+#divFilterPontoDeApoioOff {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px black;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterPontoDeApoioOff {
+    color: #118839;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#btnFilterPontoDeApoioOff:hover {
+    color: #094d20;
+}
+/* - - - - - - - BTN SIRENE ON - - - - - - - - - */
+#divFilterSirene {
+    background-color: #AC8A10;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterSirene {
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#divFilterSirene:hover {
+    background-color: #725b0a;
+}
+
+/* - - - - - - - BTN SIRENE OFF - - - - - - - - - */
+#divFilterSireneOff {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px black;
+    width: 100%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+#btnFilterSireneOff {
+    color: #AC8A10;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#divFilterSireneOff:hover {
+    color: #725b0a;
+}
+
+/* - - - - - - - SEARCH BAR - - - - - - - - - */
+#searchBarContainer {
+    margin-top: 3%;
+    width: 100%;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+}
+
+#lensImg {
+    margin: 2%;
+}
+
+#searchBar {
+    border: none;
+    border-width: 0;
+    box-shadow: none;
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+#searchBar:focus {
+    border: none;
+    border-width: 0;
+    box-shadow: none;
+    width: 90%;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+
+#clearSearchBar {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #000;
+    padding-right: 3%;
+}
+
+/* - - - - - - - SORTING BUTTONS - - - - - - - - - */
+#sortingBtns {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* - - - - - - - SORTING BUTTONS - ON - - - - - - - - - */
+#btnSort1On, #btnSort2On, #btnSort3On {
+    background-color: rgb(226, 226, 226);
+    box-shadow: inset 1px 1px 5px black;
+    transition: 700ms;
+}
+
+#btnSort1On:hover, #btnSort2On:hover, #btnSort3On:hover {
+    background-color: rgb(206, 202, 202);
+    box-shadow: inset 1px 1px 5px black;
+}
+/* - - - - - - - SORTING BUTTONS - OFF - - - - - - - - - */
+#btnSort1Off, #btnSort2Off, #btnSort3Off {
+    box-shadow: 1px 1px 5px black;
+    transition: 700ms;
+}
+#btnSort1Off:hover, #btnSort2Off:hover, #btnSort3Off:hover {
+    background-color: rgb(231, 227, 227);
+    box-shadow: 1px 1px 5px black;
+}
+
+.divSortingClass {
+    width: 32%;
+    height: 2vw;
+    text-align: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+}
+
+.btnSortingClass {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #000;
+    width:100%;
+    height: 100%;
+}

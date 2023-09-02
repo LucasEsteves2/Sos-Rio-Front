@@ -1,0 +1,124 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+
+/* - - - - - - - HEADER - - - - - - - - - */
+#header {
+    float: left;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #002146;
+    color: #fff;
+}
+
+#headerTitle {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+}
+
+#headerTitleH1 {
+    padding-left: 2%;
+    font-size: 56px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoPARI{
+    background-color: none;
+    margin-left: 1.5vw;
+    transform:scale(1.2);
+    margin-right: 2vw;
+}
+
+
+/*----------- ACESSIBILITY LOGO --------------------*/
+#logoAcess {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/*----------- ACESSIBILITY MENU --------------------*/
+#menuAcessibility:hover ul{
+    display: block;
+    transition:1500ms;
+}
+
+#menuAcessibility{
+    display: flex;
+    flex-direction: row;
+    transition:1500ms;
+    height: 100%;
+    align-items: center;
+}
+
+#menuAcessibility ul{
+    display: none;
+    list-style-type: none;
+    margin-bottom: 0px;
+    background-color:#082c55;
+    transition:1500ms;
+    padding:15px;
+}
+
+#menuAcessibility li{
+    font-size:0.8rem;
+    transition:1500ms;
+
+}
+
+/*----------- LOGIN --------------------*/
+#loginContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.btnLoginSignInAccess {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1vw;
+    padding-right: 5%;
+}
+
+.btnAccess {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    justify-content: flex-end;
+}
+
+.btnAccess:hover {
+    color: #b6b6b6;
+}
+
+.painelAdm {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(160, 233, 255);
+    justify-content: flex-end;
+}
+
+.painelAdm:hover {  
+    color: #65b9b9;
+}

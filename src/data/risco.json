@@ -1,0 +1,37 @@
+[
+ 
+  {
+    "adress": "Rua Brg. Castrioto",
+    "area": "Rua Brg. Castrioto",
+    "description": "Sirene localizada no bairro Quissamã, instalada com o objetivo de alertar a população em casos de deslizamentos, comuns na região",
+    "latitude": " -22.44387685951139",
+    "longitude": "-43.165801275502915",
+    "name": "Area de risco rua...",
+    "number": 1502,
+    "radius": 5
+  }, 
+  {
+    "adress": "Rua Brg. Castrioto",
+    "area": "Rua Brg. Castrioto",
+    "description": "Sirene localizada no bairro Quissamã, instalada com o objetivo de alertar a população em casos de deslizamentos, comuns na região",
+    "latitude": " -22.30387685951139",
+    "longitude": "-43.105801275502915",
+    "name": "Area de risco rua... petropolis",
+    "number": 1502,
+    "radius": 10
+  }, {
+    "adress": "Rua Brg. Castrioto",
+    "area": "Rua Brg. Castrioto",
+    "description": "Sirene localizada no bairro Quissamã, instalada com o objetivo de alertar a população em casos de deslizamentos, comuns na região",
+    "latitude": " -22.500387685951139",
+    "longitude": "-43.105801275502915",
+    "name": "Area de risco rua... petropolis",
+    "number": 1502,
+    "radius": 20
+  }
+
+
+
+
+    
+]

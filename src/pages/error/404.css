@@ -1,0 +1,15 @@
+.doguito-imagem {
+  max-width: 90%; /* Alterei a largura máxima para ocupar todo o espaço disponível */
+  margin: 0 auto; /* Centralize horizontalmente */
+  display: block; /* Certifique-se de que seja exibida como bloco para funcionar com margin: 0 auto */
+}
+
+  
+  .naoencontrado-texto {
+    font-size: var(--fonte-tamanho-naoencontrado-texto);
+    margin-bottom: 1rem;
+  }
+  
+  .naoencontrado-link {
+    color: var(--cor-primaria);
+  }

@@ -1,0 +1,22 @@
+/* - - - - - - - FOOTER - - - - - - - - - */
+#footerContainer{
+    float: left;
+    width: 100%;
+    height:10vh;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:#002146;
+    color: #fff;
+    z-index: 5;
+}
+
+.usefullContacts{
+    font-size: 0.8rem;
+    padding: 0.5vh 1.7vw;
+    max-width: 100vw;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}

@@ -1,0 +1,137 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+}
+
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#cardContainerZdRFResearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: none none none solid;
+    border-width: 0.5vw;
+    border-color: #E01010;
+    height: 78vh;
+    max-height: 78vh;
+    width: 29vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#goBackZdRFResearch {
+    font-size: 0.8rem;
+    height: fit-content;
+}
+
+/* - - - - - - - SCROLL BAR - - - - - - - - - */
+#cardBodyContainerZdRFResearch::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+#cardBodyContainerZdRFResearch::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0.4vw;
+}
+
+#cardBodyContainerZdRFResearch::-webkit-scrollbar-thumb {
+    background: #002146;
+    border-radius: 40px;
+}
+
+#cardBodyContainerZdRFResearch::-webkit-scrollbar-thumb:hover {
+    background: #01499b;
+}
+
+/* - - - - - - - TITLE CONTAINER- - - - - - - - - */
+#cardTitleContainerZdRFResearch {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* - - - - - - - TITLE - - - - - - - - - */
+#cardTitleZdRFResearch {
+    width: 100%;
+}
+
+#cardTitleLine1ZdRFResearch {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+#cardTitleLine1ZdRFResearch h1 {
+    margin: 0.5vw;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* - - - - - - - CARD BODY CONTAINER - - - - - - - - - */
+#cardBodyContainerZdRFResearch {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+/* - - - - - - - BOX 2 - - - - - - - - - */
+#cardBodyBox2ZdRF ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+#cardBodyBox2ZdRF li {
+    font-size: 0.8rem;
+    padding: 0.3vh 0.1vw;
+}
+
+#cardBodyBox2ZdRF {
+    font-weight: bold;
+    min-height: fit-content;
+    height: fit-content;
+}
+
+#cardRatingH3ZdRF {
+    font-size: 0.8rem;
+}
+
+#cardRatingH1ZdRF {
+    font-size: 0.8rem;
+    padding: 0.4vh 0.4vw;
+    background-color: #fa7878;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.criteriaDefesaCivilZdRF {
+    font-size: 0.8rem;
+}
+
+.entendaContainerZdRF {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entendaContainerZdRF button {
+    margin-left: 0.3vw;
+}

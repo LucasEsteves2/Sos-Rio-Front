@@ -1,0 +1,316 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#cardContainerZonaDeRiscoFullZdRF {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: none none none solid;
+    border-width: 0.5vw;
+    border-color: #E01010;
+    height: 78vh;
+    width: 29vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#goBackZdRF {
+    height: fit-content;
+}
+
+/* - - - - - - - SCROLL BAR - - - - - - - - - */
+#cardBodyContainerZdRF::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+#cardBodyContainerZdRF::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0.4vw;
+}
+
+#cardBodyContainerZdRF::-webkit-scrollbar-thumb {
+    background: #002146;
+    border-radius: 40px;
+}
+
+#cardBodyContainerZdRF::-webkit-scrollbar-thumb:hover {
+    background: #01499b;
+}
+
+/* - - - - - - - TITLE CONTAINER- - - - - - - - - */
+#cardTitleContainerZdRF {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* - - - - - - - TITLE - - - - - - - - - */
+#cardTitleZdRF {
+    width: 80%;
+}
+
+#cardTitleLine1ZdRF {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+#cardTitleLine1ZdRF h1 {
+    margin: 0.5vw;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* - - - - - - - EVALUATE BTN - - - - - - - - - */
+#evaluateBtnDivZdRF {
+    width: 18%;
+}
+
+.purpleBtnZdRF {
+    color: #9218CB;
+    display: flex;
+    justify-content: flex-start;
+    transition:700ms;
+}
+
+#sendCommentZdRF{
+    font-weight: bold;
+    padding-left: 1vw;
+    transition:700ms;
+}
+
+.purpleBtnZdRF:hover{
+    color:#E01010;
+    transition:700ms;
+}
+
+#evaluateBtnZdRF {
+    background-color: #9218CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: fit-content;
+    width: 100%;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    justify-content: center;
+    margin-top: 0.4vw;
+    border-radius: 5px;
+    transition:700ms;
+}
+
+#evaluateBtnZdRF:hover {
+    background-color: #6b1792;
+}
+
+/* #evaluateBtnZdR:focus {
+    outline: none;
+    background: #ffdd00;
+    color: #000000;
+} */
+
+/* - - - - - - - CARD BODY CONTAINER - - - - - - - - - */
+#cardBodyContainerZdRF {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* - - - - - - - CARD BOX - - - - - - - - - */
+.cardBodyBoxZdRF {
+    width: 27vw;
+    min-height: 35vh;
+    height: 35vh;
+    margin-left: 2%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: lightgrey;
+    box-shadow: 0.2em 0.2vw 0.5vw#cccccc;
+}
+
+#cardContentContainerZdRF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 25vh;
+    height: 100%;
+}
+
+#ratingBoxZdRF {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 44%;
+    height: 100%;
+    padding: 1vh 0.1vw;
+}
+
+#ratingBoxDescriptionZdRF {
+    width: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+#ratingBoxDescriptionZdRF p {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 0.6vh 0.2vw;
+    font-weight: normal;
+    text-align: justify;
+    padding: 0.5vh 1vw;
+}
+
+/* - - - - - - - BOX 2 - - - - - - - - - */
+#cardBodyBox2ZdRF ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: fit-content;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+#cardBodyBox2ZdRF li {
+    font-size: 1rem;
+    padding: 0.3vh 0.1vw;
+}
+
+#cardBodyBox2ZdRF {
+    min-height: 35vh;
+    height: 35vh;
+    font-weight: bold;
+}
+
+#cardBodyBox1ZdRF {
+    min-height: 35vh;
+    height: 40vh;
+    font-weight: bold;
+    width: 27vw;
+    margin-left: 2%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: lightgrey;
+    box-shadow: 0.2em 0.2vw 0.5vw#cccccc;
+}
+
+
+/* - - - - - - - RATING - - - - - - - - - */
+
+
+#cardRatingH1ZdRF {
+    padding: 0.4vh 0.4vw;
+    background-color: #fa7878;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.criteriaDefesaCivilZdRF {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.entendaContainerZdRF {
+    width: 100%;
+    height:3vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entendaContainerZdRF button {
+    margin-left: 0.3vw;
+}
+
+#ZdrBox1 {
+    width: 100%;
+    height: 30%;
+    background-color: #dfdfdf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ZdrBox1 h4 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+#ZdrBox2 {
+    width: 100%;
+    height: 15%;
+    background-color: #dfdfdf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ZdrBox2 h4 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+
+
+#endBarZdRF {
+    width: 96%;
+    border: none none solid none;
+    border-color: #dfdfdf;
+    border-width: 5px;
+    height: 0.1vh;
+    background-color: #dfdfdf;
+    margin-bottom: 1vh;
+    margin-top: 1.1vh;
+    margin-left: 0.5vw;
+}

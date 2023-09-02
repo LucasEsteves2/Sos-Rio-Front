@@ -1,0 +1,27 @@
+@import url("~leaflet/dist/leaflet.css");
+
+body,
+#root,
+#map {
+  height: 92vh;
+
+  width: 100%;
+}
+
+.modal {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.label {
+  margin-top: 10px;
+}
+
+#modal-footer {
+  margin-bottom: 20px;
+}
+
+.leaflet-top {
+ 
+  padding-top:3vh
+} 

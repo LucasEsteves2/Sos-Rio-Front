@@ -1,0 +1,11 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+  box-sizing: border-box;
+}
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#containerHome {
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}

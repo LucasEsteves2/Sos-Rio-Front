@@ -1,0 +1,306 @@
+/* - - - - - - - FULL - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+
+/* - - - - - - - CONTAINER - - - - - - - - - */
+#cardContainerSireneF {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: none none none solid;
+    border-width: 0.5vw;
+    border-color: #AC8A10;
+    height: 78vh;
+    width: 29vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#goBackSireneF {
+    height: fit-content;
+}
+
+/* - - - - - - - SCROLL BAR - - - - - - - - - */
+#cardBodyContainerSireneF::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+#cardBodyContainerSireneF::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0.4vw;
+}
+
+#cardBodyContainerSireneF::-webkit-scrollbar-thumb {
+    background: #002146;
+    border-radius: 40px;
+}
+
+#cardBodyContainerSireneF::-webkit-scrollbar-thumb:hover {
+    background: #01499b;
+}
+
+/* - - - - - - - TITLE CONTAINER- - - - - - - - - */
+#cardTitleContainerSireneF {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* - - - - - - - TITLE - - - - - - - - - */
+#cardTitleSireneF {
+    width: 80%;
+}
+
+#cardTitleLine1SireneF {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+#cardTitleLine1SireneF h1 {
+    margin: 0.5vw;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* - - - - - - - EVALUATE BTN - - - - - - - - - */
+#evaluateBtnDivSireneF {
+    width: 18%;
+}
+
+.purpleBtnSireneF {
+    color: #9218CB;
+    display: flex;
+    justify-content: flex-start;
+    transition:700ms;
+}
+.purpleBtnSireneF:hover {
+    color:#AC8A10;
+    transition:700ms;
+}
+
+#sireneFSubscriptionBtn, #sendCommentSirene{
+    color: #9218CB;
+    font-weight: bold;
+    padding-left: 1vw;
+    transition:700ms;
+}
+
+#sendCommentSirene:hover{
+    font-weight: bold;
+    color:#AC8A10;
+    transition:700ms;
+}
+
+#sireneFSubscriptionBtn:hover{
+    font-weight: bold;
+    color:#AC8A10;
+}
+
+#evaluateBtnSireneF {
+    background-color: #9218CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: fit-content;
+    width: 100%;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    justify-content: center;
+    margin-top: 0.4vw;
+    border-radius: 5px;
+    transition:700ms;
+}
+
+#evaluateBtnSireneF:hover {
+    background-color: #6b1792;
+}
+
+/* #evaluateBtnSireneF:focus {
+    outline: none;
+    background: #ffdd00;
+    color: #000000;
+} */
+
+/* - - - - - - - CARD BODY CONTAINER - - - - - - - - - */
+#cardBodyContainerSireneF {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* - - - - - - - CARD BOX - - - - - - - - - */
+.cardBodyBoxSireneF {
+    width: 27vw;
+    min-height: 35vh;
+    height: fit-content;
+    margin-left: 2%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: lightgrey;
+    box-shadow: 0.2em 0.2vw 0.5vw#cccccc;
+}
+
+#cardContentContainerSireneF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 25vh;
+    height: fit-content;
+    max-height: 80%;
+}
+
+#ratingBoxSireneF {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 44%;
+    height: 30vh;
+    padding: 0.1vh 0.1vw;
+}
+
+#ratingBoxDescriptionSireneF {
+    width: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+#ratingBoxDescriptionSireneF p {
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 0.6vh 0.2vw;
+    font-weight: normal;
+    text-align: justify;
+    padding: 0.5vh 1vw;
+}
+
+/* - - - - - - - BOX 2 - - - - - - - - - */
+#cardBodyBox2SireneF ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    min-height: 12vh;
+    height: fit-content;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+}
+
+#cardBodyBox2SireneF li {
+    font-size: 1rem;
+    padding: 0.3vh 0.1vw;
+}
+
+#cardBodyBox2SireneF {
+    min-height: 35vh;
+    height: fit-content;
+}
+
+#cardBodyBox1SireneF {
+    width: 27vw;
+    min-height: 40vh;
+    height: 40vh;
+    margin-left: 2%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: lightgrey;
+    box-shadow: 0.2em 0.2vw 0.5vw#cccccc;
+    font-weight: bold;
+}
+
+/* - - - - - - - RATING - - - - - - - - - */
+.cardRatingSireneF {
+    padding: 1.5vh;
+    min-height: 20vh;
+    z-index: 1;
+    display:block;
+}
+
+#cardRatingH1SireneF2 {
+    padding: 0.4vh 0.4vw;
+    background-color: #e0b412;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.entendaContainerSireneF {
+    width: 100%;
+    height:3vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entendaContainerSireneF button {
+    margin-left: 0.3vw;
+}
+
+.cardSubTitleSireneF {
+    width: 100%;
+    height: 25%;
+    min-height: 5vh;
+    background-color: #dfdfdf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSubTitleSireneF h4 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+
+#endBarSireneF {
+    width: 96%;
+    border: none none solid none;
+    border-color: #dfdfdf;
+    border-width: 5px;
+    height: 0.1vh;
+    background-color: #dfdfdf;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
